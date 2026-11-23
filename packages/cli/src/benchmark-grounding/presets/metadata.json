@@ -1,0 +1,876 @@
+{
+  "models": {
+    "qwen4-max": {
+      "displayFamily": "Qwen",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/qwen/qwen4-max",
+        "observedAt": "2026-11-23T09:19:39Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1.425e-6,
+          "outputPerToken": 4.275e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/qwen/qwen4-max#providers",
+          "observedAt": "2026-11-23T09:19:24.200Z",
+          "timeToFirstTokenMs": 1668,
+          "outputTokensPerSecond": 37
+        },
+        "note": "Uncached prices from the OpenRouter model page. The Alibaba Cloud Int. standard rate includes a 5% discount. OpenRouter P50 for TTFT and output throughput on Alibaba Cloud Int. over 30 minutes."
+      }
+    },
+    "qwen3.8-max": {
+      "displayFamily": "Qwen",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/qwen/qwen3.8-max-0902",
+        "observedAt": "2026-11-23T09:19:39Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2e-6,
+          "outputPerToken": 6e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/qwen/qwen3.8-max-0902#providers",
+          "observedAt": "2026-11-23T09:19:25.316Z",
+          "timeToFirstTokenMs": 1734.5,
+          "outputTokensPerSecond": 38
+        },
+        "note": "Uncached prices from the OpenRouter model page. The reference is the September 2 release. OpenRouter P50 for TTFT and output throughput on Alibaba Cloud Int. over 30 minutes."
+      }
+    },
+    "qwen3.8-flash": {
+      "displayFamily": "Qwen",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/qwen/qwen3.8-flash",
+        "observedAt": "2026-11-23T09:19:39Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1.5e-7,
+          "outputPerToken": 4.7e-7
+        },
+        "performance": {
+          "url": "https://openrouter.ai/qwen/qwen3.8-flash#providers",
+          "observedAt": "2026-11-23T09:19:11.824Z",
+          "timeToFirstTokenMs": 755,
+          "outputTokensPerSecond": 48
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT and output throughput on Alibaba Cloud Int. over 30 minutes."
+      }
+    },
+    "qwen3.7-plus": {
+      "displayFamily": "Qwen",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/qwen/qwen3.7-plus",
+        "observedAt": "2026-11-23T09:19:39Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 3.2e-7,
+          "outputPerToken": 1.28e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/qwen/qwen3.7-plus#providers",
+          "observedAt": "2026-11-23T09:18:49.933Z",
+          "timeToFirstTokenMs": 1356,
+          "outputTokensPerSecond": 52
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Alibaba Cloud Int. over 30 minutes, and for output throughput on Alibaba Cloud Int. us-east-1 over 30 minutes."
+      }
+    },
+    "qwen3.6-plus": {
+      "displayFamily": "Qwen",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/qwen/qwen3.6-plus",
+        "observedAt": "2026-11-23T09:19:39Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 3.25e-7,
+          "outputPerToken": 1.95e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/qwen/qwen3.6-plus#providers",
+          "observedAt": "2026-11-23T09:19:16.229Z",
+          "timeToFirstTokenMs": 1114,
+          "outputTokensPerSecond": 48
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT and output throughput on Alibaba Cloud Int. over 30 minutes."
+      }
+    },
+    "qwen3.5-plus": {
+      "displayFamily": "Qwen",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/qwen/qwen3.5-plus-02-15",
+        "observedAt": "2026-11-23T09:19:40Z",
+        "note": "Uncached prices from the OpenRouter model page. The reference is the February release. OpenRouter P50 for TTFT and output throughput on Alibaba Cloud Int. over 30 minutes.",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2.6e-7,
+          "outputPerToken": 1.56e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/qwen/qwen3.5-plus-02-15#providers",
+          "observedAt": "2026-11-23T09:18:54.765Z",
+          "timeToFirstTokenMs": 1112,
+          "outputTokensPerSecond": 58
+        }
+      }
+    },
+    "mimo-v2.6-pro": {
+      "displayFamily": "MiMo",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro",
+        "observedAt": "2026-11-23T09:19:40Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 3.87e-7,
+          "outputPerToken": 7.83e-7
+        },
+        "performance": {
+          "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro#providers",
+          "observedAt": "2026-11-23T09:18:22.130Z",
+          "timeToFirstTokenMs": 553,
+          "outputTokensPerSecond": 86
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on DeepInfra us over 30 minutes, and for output throughput on PrimaLabs over 30 minutes."
+      }
+    },
+    "mimo-v2.6-flash": {
+      "displayFamily": "MiMo",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash",
+        "observedAt": "2026-11-23T09:19:41Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1e-7,
+          "outputPerToken": 2.8e-7
+        },
+        "performance": {
+          "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash#providers",
+          "observedAt": "2026-11-23T09:19:14.824Z",
+          "timeToFirstTokenMs": 361,
+          "outputTokensPerSecond": 127
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Tenstorrent over 30 minutes, and for output throughput on Makora over 30 minutes."
+      }
+    },
+    "ling-3.0-flash-vl": {
+      "displayFamily": "Ling",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-vl",
+        "observedAt": "2026-11-23T09:19:41Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 6e-8,
+          "outputPerToken": 1.8e-7
+        },
+        "performance": {
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-vl#providers",
+          "observedAt": "2026-11-23T09:17:33.092Z",
+          "timeToFirstTokenMs": 498.5,
+          "outputTokensPerSecond": 86
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT and output throughput on DeepInfra us over 30 minutes."
+      }
+    },
+    "kimi-k3.1-pro": {
+      "displayFamily": "Kimi",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+        "observedAt": "2026-11-23T09:19:41Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2.403e-7,
+          "outputPerToken": 8.4023e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro#providers",
+          "observedAt": "2026-11-23T09:19:16.721Z",
+          "timeToFirstTokenMs": 410,
+          "outputTokensPerSecond": 246
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter identifies the reference as kimi-k3.1-pro-20261023. OpenRouter P50 for TTFT on Sail Research us over 30 minutes, and for output throughput on Amazon Bedrock us-east-2 over 30 minutes."
+      }
+    },
+    "kimi-k3": {
+      "displayFamily": "Kimi",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/moonshotai/kimi-k3",
+        "observedAt": "2026-11-23T09:19:41Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1.824e-7,
+          "outputPerToken": 1.101e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/moonshotai/kimi-k3#providers",
+          "observedAt": "2026-11-23T09:18:36.817Z",
+          "timeToFirstTokenMs": 253,
+          "outputTokensPerSecond": 165
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT and output throughput on River over 30 minutes."
+      }
+    },
+    "jev-1.14": {
+      "displayFamily": "Jev",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/typesafe/jev-1.14",
+        "observedAt": "2026-11-23T09:20:15Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 4.2e-8,
+          "outputPerToken": 0
+        },
+        "performance": {
+          "responseLatencyMs": 129,
+          "observedAt": "2026-11-23T09:19:32.203Z"
+        },
+        "note": "OpenRouter's TypeSafe route agrees with TypeSafe's published Jev 1.14 rates. TypeSafe route, 30-minute median complete-response latency across 1,741,178 requests. OpenRouter shows no output throughput for this structured decisions model; the statistic covers all supported request types."
+      }
+    },
+    "hy4-flash": {
+      "displayFamily": "Hunyuan",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/tencent/hy4-flash",
+        "observedAt": "2026-11-23T09:19:42Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 3.5e-8,
+          "outputPerToken": 1.405e-7
+        },
+        "performance": {
+          "url": "https://openrouter.ai/tencent/hy4-flash#providers",
+          "observedAt": "2026-11-23T09:19:05.124Z",
+          "timeToFirstTokenMs": 3376,
+          "outputTokensPerSecond": 56
+        },
+        "note": "Uncached prices from the OpenRouter model page. The listed rate includes a 50% promotional discount. OpenRouter P50 for TTFT and output throughput on Tencent Cloud over 30 minutes."
+      }
+    },
+    "hy4": {
+      "displayFamily": "Hunyuan",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/tencent/hy4",
+        "observedAt": "2026-11-23T09:19:42Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 4.17e-7,
+          "outputPerToken": 1.2505e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/tencent/hy4#providers",
+          "observedAt": "2026-11-23T09:19:11.772Z",
+          "timeToFirstTokenMs": 766,
+          "outputTokensPerSecond": 86
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT and output throughput on Together over 30 minutes."
+      }
+    },
+    "gpt-6.2-astra": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenAI",
+        "url": "https://developers.openai.com/api/docs/models/gpt-6.2-astra",
+        "observedAt": "2026-11-23T09:20:15Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 8e-6,
+          "outputPerToken": 4e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-6.2-astra#providers",
+          "observedAt": "2026-11-23T09:19:09.833Z",
+          "timeToFirstTokenMs": 3100,
+          "outputTokensPerSecond": 56
+        },
+        "note": "OpenAI Standard uncached input and output, for requests with up to 272,000 input tokens. OpenRouter P50 for TTFT on OpenAI over 30 minutes, and for output throughput on Amazon Bedrock us-east-2 over 30 minutes."
+      }
+    },
+    "gpt-6.2-sol": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenAI",
+        "url": "https://developers.openai.com/api/docs/models/gpt-6.2-sol",
+        "observedAt": "2026-11-23T09:20:15Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2e-6,
+          "outputPerToken": 1e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-6.2-sol#providers",
+          "observedAt": "2026-11-23T09:19:06.618Z",
+          "timeToFirstTokenMs": 731,
+          "outputTokensPerSecond": 100
+        },
+        "note": "OpenAI Standard uncached input and output, for requests with up to 272,000 input tokens. OpenRouter P50 for TTFT on OpenAI priority over 30 minutes, and for output throughput on OpenAI ultrafast over 24 hours."
+      }
+    },
+    "gpt-6.1-terra": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-6.1-terra",
+        "observedAt": "2026-11-23T09:19:43Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1e-6,
+          "outputPerToken": 5e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-6.1-terra#providers",
+          "observedAt": "2026-11-23T09:19:32.473Z",
+          "timeToFirstTokenMs": 919.5,
+          "outputTokensPerSecond": 75
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT and output throughput on OpenAI priority over 30 minutes."
+      }
+    },
+    "gpt-6.1-sol": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-6.1-sol",
+        "observedAt": "2026-11-23T09:19:44Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2e-6,
+          "outputPerToken": 1e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-6.1-sol#providers",
+          "observedAt": "2026-11-23T09:19:11.716Z",
+          "timeToFirstTokenMs": 603,
+          "outputTokensPerSecond": 101.5
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Amazon Bedrock us-east-1 over 30 minutes, and for output throughput on OpenAI ultrafast over 24 hours."
+      }
+    },
+    "gpt-6-sol": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-6-sol",
+        "observedAt": "2026-11-23T09:19:44Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2e-6,
+          "outputPerToken": 1e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-6-sol#providers",
+          "observedAt": "2026-11-23T09:18:38.667Z",
+          "timeToFirstTokenMs": 1303,
+          "outputTokensPerSecond": 114
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on OpenAI priority over 30 minutes, and for output throughput on Azure swedencentral over 30 minutes."
+      }
+    },
+    "gpt-6-luna": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-6-luna",
+        "observedAt": "2026-11-23T09:19:44Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1e-7,
+          "outputPerToken": 5e-7
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-6-luna#providers",
+          "observedAt": "2026-11-23T09:19:05.155Z",
+          "timeToFirstTokenMs": 824,
+          "outputTokensPerSecond": 141
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Amazon Bedrock us-east-1 over 30 minutes, and for output throughput on Amazon Bedrock us-east-1 over 30 minutes."
+      }
+    },
+    "gpt-6-astra": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-6-astra",
+        "observedAt": "2026-11-23T09:19:44Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1e-5,
+          "outputPerToken": 5e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-6-astra#providers",
+          "observedAt": "2026-11-23T09:18:40.827Z",
+          "timeToFirstTokenMs": 1072,
+          "outputTokensPerSecond": 79
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on OpenAI priority over 30 minutes, and for output throughput on OpenAI priority over 24 hours."
+      }
+    },
+    "gpt-5.6-terra": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-5.6-terra",
+        "observedAt": "2026-11-23T09:19:45Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2e-6,
+          "outputPerToken": 1.2e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-5.6-terra#providers",
+          "observedAt": "2026-11-23T09:17:03.607Z",
+          "timeToFirstTokenMs": 1027,
+          "outputTokensPerSecond": 104
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on OpenAI priority over 30 minutes, and for output throughput on Azure eastus2 over 24 hours."
+      }
+    },
+    "gpt-5.6-sol": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+        "observedAt": "2026-11-23T09:19:45Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 4e-6,
+          "outputPerToken": 2e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-5.6-sol#providers",
+          "observedAt": "2026-11-23T09:19:38.324Z",
+          "timeToFirstTokenMs": 990,
+          "outputTokensPerSecond": 132
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Azure eastus2 over 30 minutes, and for output throughput on OpenAI priority over 24 hours."
+      }
+    },
+    "gpt-5.6-luna": {
+      "displayFamily": "GPT",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna",
+        "observedAt": "2026-11-23T09:19:45Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2e-7,
+          "outputPerToken": 1.2e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/openai/gpt-5.6-luna#providers",
+          "observedAt": "2026-11-23T09:19:14.345Z",
+          "timeToFirstTokenMs": 427.5,
+          "outputTokensPerSecond": 169
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Amazon Bedrock us-east-1 over 30 minutes, and for output throughput on OpenAI priority over 30 minutes."
+      }
+    },
+    "glm-5v-turbo": {
+      "displayFamily": "GLM",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/z-ai/glm-5v-turbo",
+        "observedAt": "2026-11-23T09:19:45Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1.2e-6,
+          "outputPerToken": 4e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/z-ai/glm-5v-turbo#providers",
+          "observedAt": "2026-11-23T09:18:34.748Z",
+          "timeToFirstTokenMs": 1234,
+          "outputTokensPerSecond": 36.5
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT and output throughput on Z.ai over 30 minutes."
+      }
+    },
+    "glm-4.6v": {
+      "displayFamily": "GLM",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/z-ai/glm-4.6v",
+        "observedAt": "2026-11-23T09:19:46Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 3e-7,
+          "outputPerToken": 9e-7
+        },
+        "performance": {
+          "url": "https://openrouter.ai/z-ai/glm-4.6v#providers",
+          "observedAt": "2026-11-23T09:18:26.194Z",
+          "timeToFirstTokenMs": 3890,
+          "outputTokensPerSecond": 41
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Z.ai over 30 minutes, and for output throughput on Z.ai over 24 hours."
+      }
+    },
+    "gemini-4-hydrogen": {
+      "displayFamily": "Gemini",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/google/gemini-4-hydrogen",
+        "observedAt": "2026-11-23T09:19:46Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1.5e-6,
+          "outputPerToken": 7.5e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/google/gemini-4-hydrogen#providers",
+          "observedAt": "2026-11-23T09:19:07.291Z",
+          "timeToFirstTokenMs": 1350,
+          "outputTokensPerSecond": 149
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Google Vertex global priority over 30 minutes, and for output throughput on Google Vertex us over 24 hours."
+      }
+    },
+    "gemini-4-neon": {
+      "displayFamily": "Gemini",
+      "reference": {
+        "source": "Google AI Studio",
+        "url": "https://aistudio.google.com/docs/pricing#gemini-4-neon",
+        "observedAt": "2026-11-23T09:20:15Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 3e-6,
+          "outputPerToken": 1.5e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/google/gemini-4-neon#providers",
+          "observedAt": "2026-11-23T09:19:03.923Z",
+          "timeToFirstTokenMs": 5222.5,
+          "outputTokensPerSecond": 75
+        },
+        "note": "Standard paid Gemini Developer API rates include thinking tokens in output. OpenRouter P50 for TTFT and output throughput on Google AI Studio over 30 minutes."
+      }
+    },
+    "gemini-4-carbon": {
+      "displayFamily": "Gemini",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/google/gemini-4-carbon",
+        "observedAt": "2026-11-23T09:19:47Z",
+        "note": "Uncached prices from the OpenRouter model page. The listed rate is introductory. OpenRouter P50 for TTFT on Google Vertex global priority over 30 minutes, and for output throughput on Google Vertex us over 24 hours.",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2e-6,
+          "outputPerToken": 1e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/google/gemini-4-carbon#providers",
+          "observedAt": "2026-11-23T09:19:09.705Z",
+          "timeToFirstTokenMs": 4782,
+          "outputTokensPerSecond": 71
+        }
+      }
+    },
+    "gemini-4-argon": {
+      "displayFamily": "Gemini",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/google/gemini-4-argon",
+        "observedAt": "2026-11-23T09:19:47Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 2e-6,
+          "outputPerToken": 1e-5
+        },
+        "performance": {
+          "url": "https://openrouter.ai/google/gemini-4-argon#providers",
+          "observedAt": "2026-11-23T09:19:10.879Z",
+          "timeToFirstTokenMs": 5020,
+          "outputTokensPerSecond": 55
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Google AI Studio priority over 30 minutes, and for output throughput on Google Vertex us over 24 hours."
+      }
+    },
+    "gemini-3.8-flash": {
+      "displayFamily": "Gemini",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/google/gemini-3.8-flash",
+        "observedAt": "2026-11-23T09:19:47Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 7.5e-7,
+          "outputPerToken": 3.75e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/google/gemini-3.8-flash#providers",
+          "observedAt": "2026-11-23T09:19:14.606Z",
+          "timeToFirstTokenMs": 2141,
+          "outputTokensPerSecond": 91
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Google Vertex global over 30 minutes, and for output throughput on Google Vertex us over 30 minutes."
+      }
+    },
+    "gemini-3.5-flash": {
+      "displayFamily": "Gemini",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/google/gemini-3.5-flash",
+        "observedAt": "2026-11-23T09:19:47Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 1.5e-6,
+          "outputPerToken": 9e-6
+        },
+        "performance": {
+          "url": "https://openrouter.ai/google/gemini-3.5-flash#providers",
+          "observedAt": "2026-11-23T09:18:48.074Z",
+          "timeToFirstTokenMs": 1043,
+          "outputTokensPerSecond": 217
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on Google Vertex global priority over 30 minutes, and for output throughput on Google Vertex us over 30 minutes."
+      }
+    },
+    "seed-evolving": {
+      "displayFamily": "Doubao",
+      "reference": {
+        "source": "Volcengine Ark",
+        "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/model-pricing",
+        "observedAt": "2026-11-23T09:20:47Z",
+        "pricing": {
+          "currency": "CNY",
+          "inputPerToken": 6e-6,
+          "outputPerToken": 3e-5,
+          "usdExchangeRate": {
+            "source": "Bank of China reference rate",
+            "url": "https://www.boc.cn/sourcedb/whpj/",
+            "quotedAt": "2026-11-23T17:01:12+08:00",
+            "cnyPerUsd": 6.712
+          }
+        },
+        "performance": {
+          "url": "https://console.volcengine.com/ark/region:cn-beijing/model/leaderboard",
+          "observedAt": "2026-11-23T09:20:47Z",
+          "timeToFirstTokenMs": 2295,
+          "outputTokensPerSecond": 40.32258064516129
+        },
+        "note": "Public standard non-audio inference prices for 0–1024k input tokens, before cache discounts. Ark reports mean TTFT and 24.8 ms per subsequent output token for latest, with 10k input tokens, thinking disabled and no cache hits over the preceding six hours."
+      }
+    },
+    "seed-2.1-turbo": {
+      "displayFamily": "Doubao",
+      "reference": {
+        "source": "Volcengine Ark",
+        "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/model-pricing",
+        "observedAt": "2026-11-23T09:20:47Z",
+        "pricing": {
+          "currency": "CNY",
+          "inputPerToken": 3e-6,
+          "outputPerToken": 1.5e-5,
+          "usdExchangeRate": {
+            "source": "Bank of China reference rate",
+            "url": "https://www.boc.cn/sourcedb/whpj/",
+            "quotedAt": "2026-11-23T17:01:12+08:00",
+            "cnyPerUsd": 6.712
+          }
+        },
+        "performance": {
+          "url": "https://console.volcengine.com/ark/region:cn-beijing/model/leaderboard",
+          "observedAt": "2026-11-23T09:20:47Z",
+          "timeToFirstTokenMs": 2234,
+          "outputTokensPerSecond": 47.393364928909946
+        },
+        "note": "Public standard non-audio inference prices for 0–256k input tokens, before cache discounts. Ark reports mean TTFT and 21.1 ms per subsequent output token for 260628, with 10k input tokens, thinking disabled and no cache hits over the preceding six hours. Equivalence to OpenRouter’s 20260810 release is unverified."
+      }
+    },
+    "seed-2.1-pro": {
+      "displayFamily": "Doubao",
+      "reference": {
+        "source": "Volcengine Ark",
+        "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/model-pricing",
+        "observedAt": "2026-11-23T09:20:47Z",
+        "pricing": {
+          "currency": "CNY",
+          "inputPerToken": 6e-6,
+          "outputPerToken": 3e-5,
+          "usdExchangeRate": {
+            "source": "Bank of China reference rate",
+            "url": "https://www.boc.cn/sourcedb/whpj/",
+            "quotedAt": "2026-11-23T17:01:12+08:00",
+            "cnyPerUsd": 6.712
+          }
+        },
+        "performance": {
+          "url": "https://console.volcengine.com/ark/region:cn-beijing/model/leaderboard",
+          "observedAt": "2026-11-23T09:20:47Z",
+          "timeToFirstTokenMs": 2498,
+          "outputTokensPerSecond": 44.44444444444444
+        },
+        "note": "Public standard non-audio inference prices for 0–1024k input tokens, before cache discounts. Ark reports mean TTFT and 22.5 ms per subsequent output token for 260915, with 10k input tokens, thinking disabled and no cache hits over the preceding six hours."
+      }
+    },
+    "seed-2.1-lite": {
+      "displayFamily": "Doubao",
+      "reference": {
+        "source": "Volcengine Ark",
+        "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/model-pricing",
+        "observedAt": "2026-11-23T09:20:47Z",
+        "pricing": {
+          "currency": "CNY",
+          "inputPerToken": 8e-7,
+          "outputPerToken": 2.7e-6,
+          "usdExchangeRate": {
+            "source": "Bank of China reference rate",
+            "url": "https://www.boc.cn/sourcedb/whpj/",
+            "quotedAt": "2026-11-23T17:01:12+08:00",
+            "cnyPerUsd": 6.712
+          }
+        },
+        "performance": {
+          "url": "https://console.volcengine.com/ark/region:cn-beijing/model/leaderboard",
+          "observedAt": "2026-11-23T09:20:47Z",
+          "timeToFirstTokenMs": 915,
+          "outputTokensPerSecond": 54.054054054054056
+        },
+        "note": "Public standard non-audio inference prices for 0–1024k input tokens, before cache discounts. Ark reports mean TTFT and 18.5 ms per subsequent output token for 260915, with 10k input tokens, thinking disabled and no cache hits over the preceding six hours."
+      }
+    },
+    "seed-2.0-mini": {
+      "displayFamily": "Doubao",
+      "reference": {
+        "source": "Volcengine Ark",
+        "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/model-pricing",
+        "observedAt": "2026-11-23T09:20:47Z",
+        "pricing": {
+          "currency": "CNY",
+          "inputPerToken": 2e-7,
+          "outputPerToken": 2e-6,
+          "usdExchangeRate": {
+            "source": "Bank of China reference rate",
+            "url": "https://www.boc.cn/sourcedb/whpj/",
+            "quotedAt": "2026-11-23T17:01:12+08:00",
+            "cnyPerUsd": 6.712
+          }
+        },
+        "performance": {
+          "url": "https://console.volcengine.com/ark/region:cn-beijing/model/leaderboard",
+          "observedAt": "2026-11-23T09:20:47Z",
+          "timeToFirstTokenMs": 653,
+          "outputTokensPerSecond": 102.0408163265306
+        },
+        "note": "Public standard non-audio inference prices for 0–32k input tokens, before cache discounts. Ark reports mean TTFT and 9.8 ms per subsequent output token for 260428, with 10k input tokens, thinking disabled and no cache hits over the preceding six hours."
+      }
+    },
+    "seed-2.0-lite": {
+      "displayFamily": "Doubao",
+      "reference": {
+        "source": "Volcengine Ark",
+        "url": "https://console.volcengine.com/ark/region:cn-beijing/docs/model-pricing",
+        "observedAt": "2026-11-23T09:20:47Z",
+        "pricing": {
+          "currency": "CNY",
+          "inputPerToken": 6e-7,
+          "outputPerToken": 3.6e-6,
+          "usdExchangeRate": {
+            "source": "Bank of China reference rate",
+            "url": "https://www.boc.cn/sourcedb/whpj/",
+            "quotedAt": "2026-11-23T17:01:12+08:00",
+            "cnyPerUsd": 6.712
+          }
+        },
+        "performance": {
+          "url": "https://console.volcengine.com/ark/region:cn-beijing/model/leaderboard",
+          "observedAt": "2026-11-23T09:20:47Z",
+          "timeToFirstTokenMs": 1586,
+          "outputTokensPerSecond": 48.543689320388346
+        },
+        "note": "Public standard non-audio inference prices for 0–32k input tokens, before cache discounts. Ark reports mean TTFT and 20.6 ms per subsequent output token for 260428, with 10k input tokens, thinking disabled and no cache hits over the preceding six hours."
+      }
+    },
+    "deepseek-v4.1-flash": {
+      "displayFamily": "DeepSeek",
+      "reference": {
+        "source": "OpenRouter",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+        "observedAt": "2026-11-23T09:19:48Z",
+        "pricing": {
+          "currency": "USD",
+          "inputPerToken": 3.6e-8,
+          "outputPerToken": 5e-7
+        },
+        "performance": {
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017#providers",
+          "observedAt": "2026-11-23T09:19:09.177Z",
+          "timeToFirstTokenMs": 280,
+          "outputTokensPerSecond": 545
+        },
+        "note": "Uncached prices from the OpenRouter model page. OpenRouter P50 for TTFT on inference.net over 30 minutes, and for output throughput on Baseten priority over 30 minutes."
+      }
+    }
+  },
+  "families": {
+    "GPT": {
+      "color": "#d65379",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/openai.svg"
+    },
+    "Qwen": {
+      "color": "#9363d8",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/qwen-color.svg"
+    },
+    "Doubao": {
+      "color": "#0d9488",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/doubao-color.svg"
+    },
+    "Kimi": {
+      "color": "#487f9e",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/kimi.svg"
+    },
+    "Jev": {
+      "color": "#cd5e3c",
+      "logo": "https://framerusercontent.com/images/aNFzSFxM4fjICmnibw7npfZjcQ.png"
+    },
+    "DeepSeek": {
+      "color": "#4f6bed",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/deepseek-color.svg"
+    },
+    "Gemini": {
+      "color": "#4f6bed",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/gemini-color.svg"
+    },
+    "GLM": {
+      "color": "#3f5ea8",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/zhipu-color.svg"
+    },
+    "MiMo": {
+      "color": "#e86a17",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/xiaomimimo.svg"
+    },
+    "Ling": {
+      "color": "#1677ff",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/antgroup-color.svg"
+    },
+    "Hunyuan": {
+      "color": "#4f79c9",
+      "logo": "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons/hunyuan-color.svg"
+    },
+    "Llama": {
+      "color": "#0d9488"
+    },
+    "Mistral": {
+      "color": "#d65379"
+    },
+    "Grok": {
+      "color": "#487f9e"
+    },
+    "Other": {
+      "color": "#487f9e"
+    }
+  }
+}
