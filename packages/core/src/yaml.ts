@@ -43,8 +43,6 @@ export interface DetailedLocateParam
     'context' | 'deepThink' | keyof TMultimodalPrompt
   > {
   prompt: TUserPrompt;
-  /** Original prompt text used for user-facing reports. */
-  promptDisplay?: string;
   /** Per-call AI guidance recorded in user-facing reports. */
   context?: string;
 }
